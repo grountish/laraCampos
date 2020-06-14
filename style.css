@@ -36,7 +36,7 @@ header {
     position: relative;
     top: 0;
     left: 0;
-    width: 98vw;
+    /* width: 98vw; */
     height: 100vh;
     z-index: -1;
     pointer-events: none;
@@ -68,6 +68,9 @@ header {
     justify-items: right;
 }
 
+.navbar{
+    padding: 0px !important;
+}
 .nav-item {
     float: right;
     padding: 5px;
@@ -347,15 +350,17 @@ ul {
         font-size: 26px;
         letter-spacing: 5px;
         text-align: center;
-        width: 100%;
+        /* width: 100%; */
         padding-top: 15px;
 
     }
     
     .navbar-toggler-icon {
-        width: 10em;
+        width: 4em;
     }
-
+.collapsedBar{
+    background-color: rgba(123,123,123,0.35);
+}
 
     .blanco {
         color: white !important;
